@@ -1,8 +1,11 @@
 import requests
 
 
-def DownloadandGetFile(url, filename):
+def GetData(url):
     response = requests.get(url)
-    with open(filename, 'wb') as file:
-        file.write(response.content)
     return response.content
+
+
+def SaveData(data, filename):
+    with open(filename, 'wb') as file:
+        file.write(data)

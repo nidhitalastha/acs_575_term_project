@@ -1,1 +1,5 @@
-# Backend
+instance_type
+bare_metal
+current_generation
+memory_info
+network_info
