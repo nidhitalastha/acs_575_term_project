@@ -6,7 +6,7 @@ from tqdm import tqdm
 import uuid
 
 engine = create_engine(
-    'postgresql://postgres:ktv3mdb4gmh!WCW_xcu@db-term-project.ch8ue46q6ohs.us-east-2.rds.amazonaws.com:5432/aws_cc?connect_timeout=10')
+    'url')
 
 Base = declarative_base()
 
